@@ -5,6 +5,8 @@ description: Demonstrates how to use the flutter_utils_smartid_bam plugin.
 # pub.dev using `pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
+version: 1.0.0+2
+
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
@@ -13,9 +15,10 @@ dependencies:
     sdk: flutter
   http: ^0.13.5
   flutter_utils_smartid_bam:
-    git:
-      url: https://github.com/develsystems-apps/SmartID-BAM-FlutterPlugin
-      ref: main
+    path: ../
+  #    git:
+  #      url: https://github.com/DevelSystems/SmartID-BAM-FlutterPlugin
+  #      ref: 5.0.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

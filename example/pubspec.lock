@@ -70,11 +70,9 @@ packages:
   flutter_utils_smartid_bam:
     dependency: "direct main"
     description:
-      path: "."
-      ref: main
-      resolved-ref: ca7ff918599c0bc81898ac7edf1f8156ec745569
-      url: "https://github.com/develsystems-apps/SmartID-BAM-FlutterPlugin"
-    source: git
+      path: ".."
+      relative: true
+    source: path
     version: "1.1.0"
   http:
     dependency: "direct main"
